@@ -1,12 +1,14 @@
 //constructors
  class Main{
+	
 
-	int x;
-	Main(int y){
-		x=y;
-	}
+	 Main(String fName,int year){
+                System.out.println(fName);
+		System.out.println(year);
+		
+		}
 	public static void main(String [] args){
-		Main myCon=new Main(5);
-		System.out.println(myCon.x);
+		Main mycons = new Main("gnana",24 );
+		
 	}
 }
